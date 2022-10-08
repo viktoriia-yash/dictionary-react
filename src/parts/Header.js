@@ -25,7 +25,7 @@ const Header = () => {
         <h1 className="font-bold text-center project-name">Dictionary</h1>
         <div className="text-center credit">
           <a
-            href="/"
+            href="https://github.com/viktoriia-yash/dictionary-react"
             className="font-bold github"
             rel="noopener noreferrer"
             target="_blank"

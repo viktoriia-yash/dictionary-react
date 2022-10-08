@@ -114,3 +114,74 @@ li {
 .antonym {
   padding: 5px 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .body {
+    font-size: 14px;
+  }
+
+  .header-container {
+    width: 100%;
+  }
+
+  .inputs {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .project-name {
+    font-size: 35px;
+  }
+
+  .searchBar {
+    width: 200px;
+    padding: 3px 5px;
+  }
+
+  .searchBtn {
+    padding: 3px 5px;
+  }
+
+  .searchResult {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .noDefinition {
+    font-size: 20px;
+  }
+
+  .meaningResult,
+  .exampleResult,
+  .synonymsResult,
+  .antonymsResult {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project-name {
+    font-size: 25px;
+  }
+
+  .credit {
+    font-size: 10px;
+  }
+
+  .searchBar {
+    width: 150px;
+    padding: 3px 5px;
+  }
+
+  .searchResult {
+    padding: 0 5px;
+  }
+
+  .meaningResult,
+  .exampleResult,
+  .synonymsResult,
+  .antonymsResult {
+    font-size: 20px;
+  }
+}
